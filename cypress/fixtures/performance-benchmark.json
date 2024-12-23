@@ -1,0 +1,16 @@
+{
+  "testCases": [
+    {
+      "inputText": "This product is fantastic!",
+      "expectedResponseTime": 400
+    },
+    {
+      "inputText": "The service was slow and disappointing.",
+      "expectedResponseTime": 300
+    },
+    {
+      "inputText": "Neutral statement for testing.",
+      "expectedResponseTime": 250
+    }
+  ]
+}
