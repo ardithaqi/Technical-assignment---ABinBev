@@ -17,11 +17,11 @@ This project tests the **Sentiment Analysis API** using Cypress for automated en
 ### **2. Installation**
 1. Clone the repository:
    ```bash
-   git clone https://github.com/ardithaqi/technical-
-   cd techincal
+   git clone https://github.com/ardithaqi/Technical-assignment-ABinBev.git
+   cd Technical-assignment-ABinBev
 
 2.	Set up environment variables for local testing:
-    Create a .env file in the project root with the following:
+    - Create a .env file in the project root with the following:
     ```bash
     API_KEY=api_your_key
     API_URL=http://api.text2data.com/v3/Analyze
@@ -34,7 +34,6 @@ This project tests the **Sentiment Analysis API** using Cypress for automated en
 - Headless mode:
     ```bash
     npx cypress run
-
 
 ## Testing Strategy
 
