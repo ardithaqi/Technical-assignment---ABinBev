@@ -20,13 +20,21 @@ This project tests the **Sentiment Analysis API** using Cypress for automated en
    git clone https://github.com/ardithaqi/technical-
    cd techincal
 
-2. Run Cypress open
+2.	Set up environment variables for local testing:
+    Create a .env file in the project root with the following:
+    ```bash
+    API_KEY=api_your_key
+    API_URL=http://api.text2data.com/v3/Analyze
+    PORT=3000
+
+3. Run Cypress open
 - Interactive mode:
     ```bash
     npx cypress open
 - Headless mode:
     ```bash
     npx cypress run
+
 
 ## Testing Strategy
 
